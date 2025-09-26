@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*font-family: "Montserrat", sans-serif;*/
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1098px;
+    margin:0 auto; 
+}
+
+/*header*/
+
+.header {
+    padding-top: 36px;
+    background-color: #F0F0F0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header__nav-list {
+    display: flex;
+    gap:68px;
+}
+
+.header__nav-list a {
+    font-size: 18px;
+    font-weight: 600;
+    color:#000;
+}
+
+/*about__me*/
+
+.about__me {
+    position: relative;
+    background-color:#F0F0F0;
+    position: relative;
+    overflow: hidden;
+}
+
+.about__me::after {
+    content:url(img/abou__me/Subtract_2.png);
+    position: absolute;
+    top:582px;
+    left: 1350px;
+    }
+
+.about__me .container {
+    display: flex;
+    align-items:center;
+    
+}
+
+.about__me-img {
+    position: absolute;
+    top:-5px;
+    left: 150px;
+}
+
+.about__me-img::after {
+    content:url(img/abou__me/figuars.svg);
+  
+}
+
+.about__me-img-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.about__me-content {
+    box-sizing: border-box;
+    margin-bottom: 330px;
+    margin-left: 692px;
+    margin-right: 226px;
+    margin-top: 194px;
+    position: relative;
+    
+}
+
+.about__me-content::after {
+    content:url(img/abou__me/Subtract.png);
+    position: absolute;
+    bottom:50px;
+    right: -45px;
+}
+
+.about__me-socials {
+    display: flex;
+    gap: 17px;
+    justify-content: flex-start;
+}
+
+.about__me-icon {
+    
+}
+
+.about__me-title {
+    font-size:72px;
+    font-weight: 600;
+    line-height: 93.9%;
+    color:#000;
+    position: relative;
+    width: 372px;
+   
+}
+
+.about__me-title::after{
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 1.3ch;
+    height: 2px;
+    background-color:#000;
+    z-index: 0;
+    position: absolute;
+}
+
+.about__me-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color:#000;
+    margin-bottom: 20px;
+    
+}
+
+.about__me-button {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.about__me-btn {
+    font-size:18px;
+    font-weight: 600;
+    color:#fff;
+    line-height: 105.2%;
+    font-family: "Montserrat", sans-serif;
+    
+    width: 200px;          
+    padding:11px 24px;    
+    box-sizing: border-box;
+    
+    background-color:#F28B64;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+    
+}
+
+.about__me-quastion {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 105.2%;
+    color:#000;
+    border:none;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 12px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+
+    width: 140px;
+}
+
+.img__btn {
+    display: inline-block;
+}
+
+/*teach*/
+
+.teach {
+    
+}
+
+.container {
+
+}
+
+.teach__title {
+    font-size:72px;
+    font-weight: 600;
+    color:#000;
+
+    text-align: left;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 32px;
+}
+
+.teach__card-title--left{
+   
+    text-align: center;
+}
+
+.teach__title::after {
+    content:"";
+    bottom: 0;
+    left: 0;
+    width: 2ch;
+    height: 1.5px;
+    background-color:#000;
+    z-index: 0;
+    position: absolute;
+
+}
+
+.teach__cards {
+    display: flex;
+    gap:30px;
+
+    margin-bottom: 28px;
+}
+
+.teach__card {
+    
+    width: 360px;
+    height: 360px;
+    
+    box-sizing:border-box;
+    border-radius:10px;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.teach__card--left{
+    background-color:#E2E2E2;
+    position: relative;
+    
+}
+
+.teach__card--left::after {
+    content:url(img/teach/Subtract2\ \(1\).png);
+    position: absolute;
+    top:204px;
+    right:240px;
+    z-index: -1;
+}
+
+.teach__card--centre{
+    background-color:#F28B64;
+}
+
+.teach__card--right {
+    background-color:#5290EA;
+    position: relative;
+}
+
+.teach__card--right::after {
+    content:url(img/teach/Subtract2\ \(2\).png);
+    position: absolute;
+    bottom:251px;
+    left:200px;
+    z-index: -1;
+} 
+
+.teach__card-img {
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.teach__card-title {
+    font-size: 36px;
+    font-weight: 600;
+    color:#000;
+    writing-mode: vertical-rl;
+    text-align: center;
+    
+}
+
+.teach__items {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+    gap:44px;
+    width: 1035px;
+    margin-left: 45px;
+    margin-bottom: 56px;
+}
+
+.teach__item {
+    display: flex;
+    gap:20px;
+    box-sizing:border-box;
+
+    width: 239px;
+ 
+}
+
+.teach__item-wrapper{
+    display: flex;
+    flex-direction: column;
+
+    width: 97px;
+}
+
+.teach__item-title {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.teach__item-text {
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.teach__item--center {
+    width: 196px;
+    
+}
+
+/*training*/
+
+.training {
+    background-color:#F0F0F0;
+    padding-top: 47px;
+    overflow: hidden;
+
+    height: 640px;
+    position: relative;
+    
+}
+
+.training::after {
+    content:url(img/training/training_decor.png);
+    position: absolute;
+    bottom:455px;
+    left:1193px;
+}
+
+.training .container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 88px;
+}
+
+.training__logo {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 89.9%;
+    color:#000;
+    position: relative;
+}
+
+.training__logo::before {
+    content:url(img/training/training_decor2.png);
+    top:-128px;
+    left: -158px;
+    position: absolute;
+}
+
+.training__logo::after {
+  content:"";
+  bottom:0;
+  left:0;
+  width: 1.5ch;
+  height: 2px;
+  background-color:#000;
+  z-index: 0;
+  position: absolute;
+}
+
+.training__contetnt {
+    width: 479px;
+    height: 548px;
+}
+
+.trainig__title {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 89.9%;
+    color:#000;
+
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.trainig__title::after {
+    content:"";
+    
+    left:0;
+    width: 1.6ch;
+    height: 2px;
+    background-color:#000;
+    z-index: 0;
+    position: absolute;
+}
+
+.trainig__text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.trainig__text p  {
+    margin-bottom: 30px;
+}
+
+/*footer*/
+
+.footer  {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    gap:97px;
+}
+
+.footer__img {
+
+}
+
+.footer__contetnt {
+    margin-top: 39px;
+    margin-bottom: 44px;
+    
+}
+
+.footer__title {
+    font-size: 72px;
+    font-weight: 600;
+    color:#000;
+    line-height: 89.9%;
+
+    width: 557px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer__title::after {
+    content:"";
+
+    left: 0;
+    width: 1.7ch;
+    height: 2px;
+    background-color:#000;
+
+    position: absolute;
+} 
+
+.footer__socials {
+    display: flex;
+    gap: 17px;
+    justify-content: flex-start;
+    
+}
+
